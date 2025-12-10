@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizon Helping - Sistem Pelaporan Masalah Kampus</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <img src="assets/horizon.png" alt="Logo" class="logo-img">
+            <div class="logo-text">
+              <div class="main-title">Horizon</div>
+              <div class="sub-title">Helping</div>
+            </div>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#laporan">Status Laporan</a></li>
+            <li><a href="#about">Layanan</a></li>
+            <li><a href="#booking-section">Fitur</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+          <div class="nav__btn">
+            <a href="#" style="text-decoration: none;">Login</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header__container" id="home">
+        <p>Cepat - Responsif - Transparan</p>
+        <h1>Bantu Jaga Kampus Kita Lapor <span>Masalah</span> Sekarang.</h1>
+      </div>
+    </header>
+
+    <section class="booking__container" id="booking-section">
+      <div class="booking__grid">
+        <div class="booking__box fade-up" data-delay="0.1">
+          <i class="ri-phone-fill"></i>
+          <h3>Call Center</h3>
+          <p>Hubungi kami langsung untuk laporan darurat atau pertanyaan segera</p>
+        </div>
+        <div class="booking__box fade-up" data-delay="0.2">
+          <i class="ri-megaphone-fill"></i>
+          <h3>Announcement</h3>
+          <p>Lihat pengumuman terbaru tentang perbaikan dan jadwal pemeliharaan</p>
+        </div>
+        <div class="booking__box fade-up" data-delay="0.3">
+          <i class="ri-history-fill"></i>
+          <h3>History</h3>
+          <p>Lacak riwayat laporan Anda dan status penyelesaian sebelumnya</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about__container" id="about">
+      <div class="about__image fade-left">
+        <img src="assets/text.jpg" alt="maintenance" />
+      </div>
+      <div class="about__content fade-right">
+        <div class="section__header-container">
+          <p class="section__subheader">LAYANAN KAMI</p>
+          <h2 class="section__header">Kampus Aman . Belajar Nyaman.</h2>
+          <p class="section__description">
+            Platform resmi universitas untuk melaporkan segala bentuk kerusakan fasilitas (AC, Proyektor, Sanitasi) atau kehilangan barang. Kami berkomitmen menindaklanjuti laporan dalam 1x24 jam demi kenyamanan civitas akademika.
+          </p>
+        </div>
+        <div class="about__features">
+          <div class="about__feature fade-up">
+            <i class="ri-check-double-line"></i>
+            <div class="about__feature-content">
+              <h4>Respon Cepat</h4>
+              <p>Laporan Anda langsung diproses dalam waktu 1 jam setelah diterima</p>
+            </div>
+          </div>
+          <div class="about__feature fade-up">
+            <i class="ri-shield-check-line"></i>
+            <div class="about__feature-content">
+              <h4>Transparan</h4>
+              <p>Pantau status penyelesaian laporan secara real-time kapan saja</p>
+            </div>
+          </div>
+          <div class="about__feature fade-up">
+            <i class="ri-award-line"></i>
+            <div class="about__feature-content">
+              <h4>Profesional</h4>
+              <p>Tim teknisi berpengalaman siap menangani berbagai masalah</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn fade-up">Pelajari Prosedur</button>
+      </div>
+    </section>
+
+    <section class="room__container" id="laporan">
+      <div class="section__container">
+        <div class="section__header-container">
+          <p class="section__subheader fade-in">STATUS LAPORAN TERKINI</p>
+          <h2 class="section__header fade-up">Pantau Perbaikan di Sekitar Anda</h2>
+          <p class="section__description fade-down">Lihat status terkini dari laporan masalah di berbagai lokasi kampus</p>
+        </div>
+      </div>
+      <div class="room__grid">
+
+        <div class="room__card fade-up" data-delay="0.1">
+          <div class="room__card__image">
+            <span class="status__badge status-pending">Menunggu</span>
+            <img src="assets/kursi.jpeg" alt="keran" />
+          </div>
+          <div class="room__card__details">
+            <h4>Kerusakan Fasilitas</h4>
+            <p>
+              Kursi rusak di gedung B.
+            </p>
+            <div class="room__card__footer">
+                <h5>Pelapor: <span>Anonim</span></h5>
+                <button class="btn">Lihat</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="room__card fade-up" data-delay="0.2">
+          <div class="room__card__image">
+            <span class="status__badge status-process">Diproses</span>
+            <img src="assets/kunci.png" alt="kelas" />
+          </div>
+          <div class="room__card__details">
+            <h4>Kehilangan</h4>
+            <p>
+              Ditemukan kunci motor honda di gedung B.
+            </p>
+            <div class="room__card__footer">
+                <h5>Penemu: Ripqi<span></span></h5>
+                <button class="btn">Pantau</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+      <footer id="kontak">
+      <div class="footer__container">
+        <div class="footer__col fade-up">
+          <div class="footer-logo">
+            <img src="assets/horizon.png" alt="Logo" class="footer-logo-img">
+            <div class="footer-logo-text">
+              <div class="main-title">Horizon</div>
+              <div class="sub-title">Helping</div>
+            </div>
+          </div>
+          <p>
+            Sistem pelaporan masalah kampus yang membantu menjaga fasilitas kampus tetap baik untuk kenyamanan belajar semua mahasiswa.
+          </p>
+          <div class="social__links">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col fade-up">
+          <h3>Kontak Kami</h3>
+          <p><i class="ri-map-pin-fill"></i>  Jl. Pangkal Perjuangan By Pass KM 1, Tanjungpura, Kec. Karawang Barat, Kab. Karawang, Jawa Barat, Indonesia</p>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7571289999997!2d107.29799999999999!3d-6.284722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699d6a7b8b8b8b%3A0x2e699d6a7b8b8b8b!2sKarawang%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1634567890123!5m2!1sen!2sid"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="contact-info">
+            <p><i class="ri-phone-fill"></i> +62 00 0000 0000</p>
+            <p><i class="ri-mail-fill"></i> help@horizon.ac.id</p>
+            <p><i class="ri-time-fill"></i> Senin-Jumat: 08.00-17.00 WIB</p>
+          </div>
+        </div>
+        <div class="footer__col fade-up">
+          <h3>Jenis Laporan</h3>
+          <ul>
+            <li><a href="#">Fasilitas Ruangan</a></li>
+            <li><a href="#">Infrastruktur Umum</a></li>
+            <li><a href="#">Kehilangan Barang</a></li>
+            <li><a href="#">Kebersihan Lingkungan</a></li>
+            <li><a href="#">Masalah Teknis</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright fade-in">
+        <p>&copy; 2024 Horizon Helping System. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const navLinks = document.getElementById("nav-links");
+      const menuBtnIcon = menuBtn.querySelector("i");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+
+        const isOpen = navLinks.classList.contains("open");
+        menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
+        menuBtn.classList.toggle("rotated");
+      });
+
+      navLinks.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuBtnIcon.setAttribute("class", "ri-menu-line");
+        menuBtn.classList.remove("rotated");
+      });
+
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const element = entry.target;
+            const delay = element.dataset.delay || 0;
+
+            setTimeout(() => {
+              element.classList.add('visible');
+
+              if (element.classList.contains('nav__links')) {
+                const items = element.querySelectorAll('li');
+                items.forEach((item, index) => {
+                  setTimeout(() => {
+                    item.style.animationDelay = `${index * 0.1}s`;
+                  }, 100);
+                });
+              }
+            }, delay * 1000);
+
+            observer.unobserve(element);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.booking__box, .room__card').forEach(el => {
+        observer.observe(el);
+      });
+
+      const fadeObserverOptions = {
+        threshold: 0.15,
+        rootMargin: '0px 0px -100px 0px'
+      };
+
+      const fadeObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            fadeObserver.unobserve(entry.target);
+          }
+        });
+      }, fadeObserverOptions);
+
+      document.querySelectorAll('.section__header, .section__description, .about__feature, .footer__col, .section__subheader, .room__card__details, .room__card__footer, .about__image, .about__content, .room__card__image').forEach(el => {
+        if (!el.classList.contains('fade-up') &&
+            !el.classList.contains('fade-down') &&
+            !el.classList.contains('fade-left') &&
+            !el.classList.contains('fade-right') &&
+            !el.classList.contains('fade-in')) {
+          el.classList.add('fade-up');
+        }
+        fadeObserver.observe(el);
+      });
+
+      const navbar = document.querySelector('nav');
+      let lastScrollTop = 0;
+
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > 100) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+
+        lastScrollTop = scrollTop;
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            const offsetTop = target.offsetTop - 80;
+
+            window.scrollTo({
+              top: offsetTop,
+              behavior: 'smooth'
+            });
+
+            if (navLinks.classList.contains('open')) {
+              navLinks.classList.remove('open');
+              menuBtnIcon.setAttribute("class", "ri-menu-line");
+              menuBtn.classList.remove("rotated");
+            }
+          }
+        });
+      });
+
+      document.querySelectorAll('.btn').forEach(button => {
+        button.addEventListener('mouseenter', function() {
+          this.style.transform = 'translateY(-3px)';
+        });
+
+        button.addEventListener('mouseleave', function() {
+          this.style.transform = 'translateY(0)';
+        });
+
+        button.addEventListener('mousedown', function() {
+          this.style.transform = 'translateY(-1px)';
+        });
+      });
+
+      window.addEventListener('load', () => {
+        const headerElements = document.querySelectorAll('.header__container h1, .header__container p');
+        headerElements.forEach((el, index) => {
+          setTimeout(() => {
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+          }, (index + 1) * 300);
+        });
+      });
+    </script>
+  </body>
+</html>
